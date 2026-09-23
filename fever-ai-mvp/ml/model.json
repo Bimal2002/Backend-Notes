@@ -1,0 +1,173 @@
+{
+  "type": "lite_nb_v1",
+  "labels": [
+    "viral_fever",
+    "dengue_like",
+    "bacterial",
+    "unknown"
+  ],
+  "priors": {
+    "viral_fever": 0.25,
+    "dengue_like": 0.25,
+    "bacterial": 0.25,
+    "unknown": 0.25
+  },
+  "stats": {
+    "viral_fever": {
+      "temperature_f": {
+        "type": "gaussian",
+        "mean": 101.18426823169273,
+        "var": 1.0939800914251598
+      },
+      "fever_days": {
+        "type": "gaussian",
+        "mean": 2.622340425531915,
+        "var": 1.2309420866992833
+      },
+      "platelets": {
+        "type": "gaussian",
+        "mean": 296550.0540540541,
+        "var": 6941360439.703584
+      },
+      "wbc": {
+        "type": "gaussian",
+        "mean": 7084.032432432433,
+        "var": 4329063.770681551
+      },
+      "crp": {
+        "type": "gaussian",
+        "mean": 5.082561859838814,
+        "var": 8.230177373074083
+      },
+      "headache": {
+        "type": "bernoulli",
+        "p": 0.4607329842931937
+      },
+      "rash": {
+        "type": "bernoulli",
+        "p": 0.5027322404371585
+      },
+      "chills": {
+        "type": "bernoulli",
+        "p": 0.5108695652173914
+      }
+    },
+    "dengue_like": {
+      "temperature_f": {
+        "type": "gaussian",
+        "mean": 102.45374511344635,
+        "var": 1.3208733760520188
+      },
+      "fever_days": {
+        "type": "gaussian",
+        "mean": 6.231578947368421,
+        "var": 5.036034530771373
+      },
+      "platelets": {
+        "type": "gaussian",
+        "mean": 81827.02747252748,
+        "var": 1116733746.5793517
+      },
+      "wbc": {
+        "type": "gaussian",
+        "mean": 3249.437158469945,
+        "var": 1070104.0056446285
+      },
+      "crp": {
+        "type": "gaussian",
+        "mean": 9.665396007666645,
+        "var": 31.457997733791515
+      },
+      "headache": {
+        "type": "bernoulli",
+        "p": 0.47802197802197804
+      },
+      "rash": {
+        "type": "bernoulli",
+        "p": 0.532608695652174
+      },
+      "chills": {
+        "type": "bernoulli",
+        "p": 0.5414364640883977
+      }
+    },
+    "bacterial": {
+      "temperature_f": {
+        "type": "gaussian",
+        "mean": 102.19698563893112,
+        "var": 1.770851967023206
+      },
+      "fever_days": {
+        "type": "gaussian",
+        "mean": 5.708108108108108,
+        "var": 6.957814336075205
+      },
+      "platelets": {
+        "type": "gaussian",
+        "mean": 325768.8152173913,
+        "var": 9886890415.452007
+      },
+      "wbc": {
+        "type": "gaussian",
+        "mean": 14625.756756756757,
+        "var": 10753721.967685075
+      },
+      "crp": {
+        "type": "gaussian",
+        "mean": 78.81013939679336,
+        "var": 1589.6630954942461
+      },
+      "headache": {
+        "type": "bernoulli",
+        "p": 0.5053191489361702
+      },
+      "rash": {
+        "type": "bernoulli",
+        "p": 0.526595744680851
+      },
+      "chills": {
+        "type": "bernoulli",
+        "p": 0.42780748663101603
+      }
+    },
+    "unknown": {
+      "temperature_f": {
+        "type": "gaussian",
+        "mean": 101.51455212489667,
+        "var": 4.176445186404202
+      },
+      "fever_days": {
+        "type": "gaussian",
+        "mean": 6.978021978021978,
+        "var": 18.94979054095076
+      },
+      "platelets": {
+        "type": "gaussian",
+        "mean": 327720.4175824176,
+        "var": 25470344812.178253
+      },
+      "wbc": {
+        "type": "gaussian",
+        "mean": 12970.79057591623,
+        "var": 53353233.52433178
+      },
+      "crp": {
+        "type": "gaussian",
+        "mean": 96.74853752368658,
+        "var": 3371.6946430124653
+      },
+      "headache": {
+        "type": "bernoulli",
+        "p": 0.45054945054945056
+      },
+      "rash": {
+        "type": "bernoulli",
+        "p": 0.5449438202247191
+      },
+      "chills": {
+        "type": "bernoulli",
+        "p": 0.5240641711229946
+      }
+    }
+  }
+}
