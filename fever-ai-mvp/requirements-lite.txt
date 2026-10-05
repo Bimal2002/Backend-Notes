@@ -1,6 +1,0 @@
-# Lite mode for very new Python versions (e.g., 3.14).
-# Intentionally excludes FastAPI/Pydantic because pydantic-core may not have wheels yet.
-streamlit>=1.41,<1.42
-pillow>=10,<12
-pytesseract>=0.3.10,<0.4
-requests>=2.31,<3
